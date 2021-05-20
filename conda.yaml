@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.7.5
+  - poppler=21.03.0
+  - pdf2image=1.15.1
