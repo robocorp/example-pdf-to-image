@@ -2,6 +2,9 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.7.5
-  - poppler=21.10.0
-  - pdf2image=1.16.0
+  - python=3.9.13               # https://pyreadiness.org/3.9/         
+  - poppler=22.04.0             # https://anaconda.org/conda-forge/poppler
+  - pdf2image=1.16.0            # https://anaconda.org/conda-forge/pdf2image
+  - pip=22.2.2                  # https://pypi.org/project/pip/
+  - pip:
+      - rpaframework==17.5.1    # https://rpaframework.org/releasenotes.html
