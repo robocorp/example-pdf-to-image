@@ -1,12 +1,15 @@
 tasks:
-  Run Python:
-    shell: python task.py
+  PDF to Image Example:
+    shell: python -m robocorp.tasks run tasks.py
 
 condaConfigFile: conda.yaml
 artifactsDir: output
+
 PATH:
   - .
+
 PYTHONPATH:
   - .
+
 ignoreFiles:
   - .gitignore

@@ -1,7 +1,15 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-condayaml
+# Tip: Adding a link to the release notes of the packages helps maintenance and security.
+
 channels:
   - conda-forge
 
 dependencies:
-  - python=3.9.13               # https://pyreadiness.org/3.9/         
-  - poppler=22.04.0             # https://anaconda.org/conda-forge/poppler
-  - pdf2image=1.16.0            # https://anaconda.org/conda-forge/pdf2image
+  - python=3.10.12                # https://pyreadiness.org/3.10
+  - pip=23.2.1                    # https://pip.pypa.io/en/stable/news
+  - robocorp-truststore=0.8.0     # https://prefix.dev/channels/conda-forge/packages/robocorp-truststore
+  - poppler=23.12.0               # https://prefix.dev/channels/conda-forge/packages/poppler
+  - pdf2image=1.16.3              # https://prefix.dev/channels/conda-forge/packages/pdf2image
+  - pip:
+    - robocorp==1.2.4             # https://pypi.org/project/robocorp
